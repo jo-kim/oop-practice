@@ -1,6 +1,8 @@
 package org.example;
 
-public class CorrectFixedPasswordGenerator implements PasswordGeneratePolicy{
+import org.example.password.PasswordGeneratePolicy;
+
+public class CorrectFixedPasswordGenerator implements PasswordGeneratePolicy {
     @Override
     public String generatePassword() {
         return "abcdefgh";
